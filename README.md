@@ -1,5 +1,13 @@
 # Frontend Mentor - Easybank landing page
 
+### Challenge of frontendmentor.io
+https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
+
+### Project deployment
+https://luisfelipel.github.io/Easybank-Landingpage/
+
+
+
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
