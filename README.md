@@ -4,7 +4,7 @@
 https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
 
 ### Project deployment
-https://luisfelipel.github.io/Easybank-Landingpage/
+https://lopepardo.github.io/Easybank-Landingpage/
 
 
 
