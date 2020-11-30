@@ -1,0 +1,103 @@
+.footer {
+  background-color: $dark-blue;
+  padding: 2.5rem 0;
+
+  &__content {
+    text-align: center;
+    @include media($min-md) {
+      grid-template-columns: 1fr;
+    }
+    @include media($min-lg) {
+      text-align: left;
+      grid-template-columns: initial;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  &__social {
+    width: (1.6rem * 5) + (1rem * 4);
+    display: grid;
+    grid-template-columns: repeat(5, 1.8rem);
+    grid-column-gap: 1rem;
+    margin: 0 auto 0.8rem;
+
+    @include media($min-lg) {
+      margin: 0;
+      width: auto;
+    }
+  }
+
+  &__social-img {
+    width: 1.6rem;
+    display: block;
+  }
+
+  &__social-img:hover {
+    fill: $lime-green;
+  }
+
+  &__info {
+    margin-bottom: 1rem;
+
+    @include media($min-lg) {
+      margin-bottom: 0;
+      grid-column: 2 / span 2;
+      display: flex;
+    }
+  }
+
+  &__info-item {
+    display: block;
+    font-size: $p-font-size;
+    margin: 1.3rem 0;
+    color: $light-grayish-blue;
+    @include media($min-lg) {
+      margin: 0 7rem 1.3rem 0;
+    }
+  }
+
+  &__info-item:hover {
+    color: $lime-green;
+  }
+
+  &__btn-copy {
+    @include media($min-lg) {
+      text-align: right;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+
+  &__copy {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: $grayish-blue;
+    font-size: $p-font-size;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: $white;
+  padding: 5px;
+
+  @include media($min-lg) {
+    grid-column: 1 / span 4;
+  }
+
+  a {
+    color: hsl(228, 100%, 82%);
+  }
+
+  a:hover {
+    color: hsl(228, 75%, 60%);
+  }
+}

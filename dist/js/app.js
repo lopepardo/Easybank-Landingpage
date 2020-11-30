@@ -1,0 +1,1 @@
+const navToggle=(e,t,n)=>{const o=document.getElementById(e);const s=document.getElementById(t);const c=document.querySelector(n);if(o&&s&&c){o.addEventListener("click",(()=>{s.classList.toggle("show");c.classList.toggle("show-bg")}))}};navToggle("btn-nav","header-nav",".nav-bg");

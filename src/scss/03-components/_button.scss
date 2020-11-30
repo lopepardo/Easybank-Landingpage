@@ -1,0 +1,14 @@
+.btn {
+  width: 150px;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 13px 30px;
+  background: $gradient;
+  border-radius: 60px;
+  color: $white;
+  transition: 0.5s;
+
+  &:hover {
+    background: $gradient-light;
+  }
+}

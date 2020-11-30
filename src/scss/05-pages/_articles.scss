@@ -1,0 +1,55 @@
+.articles {
+  background-color: $very-light-gray;
+  padding: 4.5rem 0;
+
+  &__title {
+    font-size: $h2-font-size;
+    text-align: center;
+    color: $dark-blue;
+    margin-bottom: 40px;
+  }
+}
+
+.article {
+  &__item {
+    max-width: 330px;
+    margin: 0 auto;
+    background-color: $white;
+    border-radius: 5px;
+  }
+
+  &__img {
+    border-radius: 5px 5px 0 0;
+    height: 180px;
+    width: 100%;
+    display: block;
+  }
+
+  &__content {
+    padding: 1.5rem 1.8rem 2.8rem;
+  }
+
+  &__author {
+    font-size: $span-font-size;
+    color: $grayish-blue;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+  }
+
+  &__title {
+    cursor: pointer;
+    font-size: $h3-font-size;
+    margin-bottom: 10px;
+    color: $dark-blue;
+  }
+
+  &__title:hover {
+    color: $lime-cyan;
+  }
+
+  &__text {
+    font-size: $p-font-size;
+    color: $grayish-blue;
+    line-height: $line-height;
+  }
+}

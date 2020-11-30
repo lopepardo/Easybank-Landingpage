@@ -1,0 +1,55 @@
+/* Colors */
+$dark-blue: hsl(233, 26%, 24%);
+$lime-green: rgb(49, 211, 92);
+$bright-cyan: rgb(43, 183, 218);
+$lime-cyan: rgb(47, 198, 155);
+
+$grayish-blue: hsl(233, 8%, 62%);
+$light-grayish-blue: hsl(220, 16%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+$gradient: linear-gradient(
+  120deg,
+  rgba(49, 211, 92, 1) 0%,
+  rgba(43, 183, 218, 1) 100%
+);
+$gradient-light: linear-gradient(
+  120deg,
+  rgba(49, 211, 92, 0.7) 0%,
+  rgba(43, 183, 218, 0.7) 100%
+);
+
+/* Layout */
+$header-height: 4rem;
+
+/* Fonts */
+$h1-font-size: 2.4rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.1rem;
+
+$p-font-size: 0.9rem;
+$span-font-size: 0.7rem;
+
+$line-height: 1.5rem;
+
+/* z-index */
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+/* Breakpoints */
+$sm: 420px;
+
+$min-sm: 421px;
+$max-sm: 767px;
+
+$min-md: 768px;
+$max-md: 1023px;
+
+$min-lg: 1024px;
+$max-lg: 1365px;
+
+$hg: 1366px;

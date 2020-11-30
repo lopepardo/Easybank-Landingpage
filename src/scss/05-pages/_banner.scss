@@ -1,0 +1,85 @@
+.banner {
+  background-image: url("../images/bg-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding-bottom: 4.5rem;
+
+  @include media($min-lg) {
+    height: 32rem;
+    background-image: none;
+    padding-bottom: 0;
+  }
+
+  &__content {
+    @include media($min-md) {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+    @include media($min-lg) {
+      grid-template-columns: repeat(2, 550px);
+    }
+  }
+
+  &__mockups {
+    height: 100vw;
+    @include media($min-lg) {
+      position: relative;
+      height: 100%;
+      grid-column: 2 / span 1;
+    }
+  }
+
+  &__bg-desktop {
+    display: none;
+    @include media($min-lg) {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(16%) translateY(2%) scale(1.5);
+    }
+  }
+
+  &__img {
+    transform: translateY(-12.5vw);
+
+    @include media($min-md) {
+      transform: translateY(-18.5vw);
+    }
+
+    @include media($min-lg) {
+      transform: translateX(32%) translateY(-4%);
+    }
+  }
+
+  &__description {
+    @include media($min-md) {
+      width: 550px;
+      margin: 0 auto;
+    }
+    @include media($min-lg) {
+      grid-row: 1 / span 1;
+      margin: 10rem 0 0;
+      width: 380px;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    font-size: $h1-font-size;
+    color: $dark-blue;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-size: $p-font-size;
+    color: $grayish-blue;
+    margin-bottom: 1.5rem;
+    line-height: $line-height;
+  }
+
+  &__btn {
+    display: inline-block;
+  }
+}
